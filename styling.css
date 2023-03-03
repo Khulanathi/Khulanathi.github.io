@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.head{
+    background-color: black;
+}
+.body {
+    background-color:black;
+
+    
+
+}
+
+.body a{
+    padding: 7pt;
+    padding-top: 0;
+    font-size: 20pt;
+    color: grey;
+}
+.body a:hover{
+    color:skyblue;
+
+}
+.read{
+    color: white;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40pt;
+    border-bottom: 2pt solid skyblue;
+    border-radius: 0.5rem;
+    width: 400pt;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+ 
+
+}
+.cont1{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+/* .label{
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    cursor: grab;
+    
+  } */
+.label{
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    cursor: grab;
+    
+  }
+#check1{
+    display: none;
+}
+
+#check2 {
+    display: none;
+}
+#check3{
+    display: none;
+}
+#check4{
+    display: none;
+}
+.content1{
+    color: white;
+    display: none;
+}
+.content2{
+    color: white;
+    display: none;
+}
+.content3{
+    color: white;
+    display: none;
+}
+.content4{
+    color: white;
+    display: none;
+}
+.content1 ul{
+    list-style-type: decimal;
+}
+
+.content1 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#check1:checked~.content1{
+    display: block;
+    padding-left: 35px;
+    width: 500pt;
+}
+.content1 h2{
+    color: royalblue;
+    text-decoration: underline;
+}
+.description{
+    padding-left: 20pt;
+}
+.content1 a{
+    font-size: 11pt;
+
+}
+.content1 a:hover{
+    color: maroon;
+}
+#check2:checked~.content2{
+    display: block;
+    padding-left: 35px;
+    width: 500pt;
+}
+#check3:checked~.content3{
+    display: block;
+    padding-left: 35px;
+    width: 600pt;
+    padding-bottom: 25px;
+}
+#check4:checked~.content4{
+    display: flex;
+    padding-left: 35px;
+    width: 700pt;
+    
+}
+.abMe{
+    border: 2pt solid skyblue;
+    margin: 10px;
+    text-align: center;
+    padding: 8pt;
+}
+.name{
+   color:royalblue;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 30px ;
+}
+.extra{
+    text-align: center;
+    color:royalblue;
+    padding-bottom: 20px ;
+}
+footer{
+    padding-top: 60px;
+}
+
+.descript{
+    display: flex;
+    max-height: 500px;
+    padding: 10pt ;
+    border-radius: 0.5rem;
+    border-bottom: 2pt solid royalblue;
+}
+.descript .li{
+    text-decoration: underline;
+    color: royalblue;
+}
+.op1{
+    width: 55%;
+    padding-right: 8pt;
+}
+.op2{
+    width: 55%;
+    
+}
+.op2 img{
+    width: 80%%;
+    height: 300px;
+}
+
+
+
