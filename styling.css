@@ -189,10 +189,10 @@ footer{
 
 @media all and (max-width: 500px){
     .name{
-        font-size: 8pt;
+        font-size: 10pt;
     }
     .extra{
-        font-size: 8pt;
+        font-size: 9pt;
     }
     .read{
         width: 80%;
